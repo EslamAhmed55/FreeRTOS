@@ -1,0 +1,10 @@
+01:38:57 **** Build of configuration Debug for project 15_SynchronizingTasksWithQueues ****
+make -j12 all 
+arm-none-eabi-size  15_SynchronizingTasksWithQueues.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24132	     96	  21016	  45244	   b0bc	15_SynchronizingTasksWithQueues.elf
+Finished building: default.size.stdout
+ 
+
+01:38:57 Build Finished. 0 errors, 0 warnings. (took 306ms)
+

@@ -1,0 +1,10 @@
+17:19:54 **** Incremental Build of configuration Debug for project 4_Task_Priority ****
+make -j12 all 
+arm-none-eabi-size  4_Task_Priority.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20248	     16	  20488	  40752	   9f30	4_Task_Priority.elf
+Finished building: default.size.stdout
+ 
+
+17:19:55 Build Finished. 0 errors, 0 warnings. (took 562ms)
+

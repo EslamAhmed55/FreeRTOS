@@ -1,0 +1,10 @@
+02:31:42 **** Incremental Build of configuration Debug for project 35_CmsisRtosThread ****
+make -j12 all 
+arm-none-eabi-size  35_CmsisRtosThread.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35644	    472	  20840	  56956	   de7c	35_CmsisRtosThread.elf
+Finished building: default.size.stdout
+ 
+
+02:31:43 Build Finished. 0 errors, 0 warnings. (took 355ms)
+

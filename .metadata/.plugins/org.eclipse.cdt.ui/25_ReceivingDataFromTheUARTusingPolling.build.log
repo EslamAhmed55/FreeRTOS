@@ -1,0 +1,10 @@
+00:08:35 **** Incremental Build of configuration Debug for project 25_ReceivingDataFromTheUARTusingPolling ****
+make -j12 all 
+arm-none-eabi-size  25_ReceivingDataFromTheUARTusingPolling.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37008	    472	  20928	  58408	   e428	25_ReceivingDataFromTheUARTusingPolling.elf
+Finished building: default.size.stdout
+ 
+
+00:08:35 Build Finished. 0 errors, 0 warnings. (took 309ms)
+

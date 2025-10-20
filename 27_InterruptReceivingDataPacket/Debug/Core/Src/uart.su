@@ -1,0 +1,4 @@
+../Core/Src/uart.c:16:7:USART2_UART_Tx_Init	8	static
+../Core/Src/uart.c:45:7:USART2_UART_Rx_Init	8	static
+../Core/Src/uart.c:75:6:uart2_write	16	static
+../Core/Src/uart.c:88:6:__io_putchar	16	static

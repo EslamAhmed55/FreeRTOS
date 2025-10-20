@@ -1,0 +1,12 @@
+04:45:15 **** Incremental Build of configuration Debug for project 27_InterruptReceivingDataPacket ****
+make -j12 all 
+arm-none-eabi-gcc -o "27_InterruptReceivingDataPacket.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\eslam\STM32CubeIDE\workspace_1.14.1\27_InterruptReceivingDataPacket\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="27_InterruptReceivingDataPacket.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/uart.o:C:/Users/eslam/STM32CubeIDE/workspace_1.14.1/27_InterruptReceivingDataPacket/Debug/../Core/Src/uart.c:11: multiple definition of `huart2'; ./Core/Src/main.o:C:/Users/eslam/STM32CubeIDE/workspace_1.14.1/27_InterruptReceivingDataPacket/Debug/../Core/Src/main.c:7: first defined here
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `HandlerTask':
+C:/Users/eslam/STM32CubeIDE/workspace_1.14.1/27_InterruptReceivingDataPacket/Debug/../Core/Src/main.c:68:(.text.HandlerTask+0x2a): undefined reference to `USART2_UART_RX_Init'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:68: 27_InterruptReceivingDataPacket.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+04:45:16 Build Failed. 3 errors, 0 warnings. (took 563ms)
+

@@ -1,0 +1,10 @@
+01:15:11 **** Incremental Build of configuration Debug for project 18_WorkingwithBinarySemaphores ****
+make -j12 all 
+arm-none-eabi-size  18_WorkingwithBinarySemaphores.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36768	    472	  20848	  58088	   e2e8	18_WorkingwithBinarySemaphores.elf
+Finished building: default.size.stdout
+ 
+
+01:15:11 Build Finished. 0 errors, 0 warnings. (took 552ms)
+

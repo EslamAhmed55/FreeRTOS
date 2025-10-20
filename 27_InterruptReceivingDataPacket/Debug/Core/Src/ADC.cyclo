@@ -1,0 +1,2 @@
+../Core/Src/ADC.c:36:6:ADC_init	1
+../Core/Src/ADC.c:50:10:read_analog_sensor	2

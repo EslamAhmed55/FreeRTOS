@@ -1,0 +1,16 @@
+02:27:55 **** Build of configuration Release for project 34_CmsisRtosThread ****
+make -j12 all 
+arm-none-eabi-gcc -o "34_CmsisRtosThread.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\eslam\STM32CubeIDE\workspace_1.14.1\34_CmsisRtosThread\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="34_CmsisRtosThread.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 34_CmsisRtosThread.elf
+ 
+arm-none-eabi-size  34_CmsisRtosThread.elf 
+arm-none-eabi-objdump -h -S 34_CmsisRtosThread.elf  > "34_CmsisRtosThread.list"
+   text	   data	    bss	    dec	    hex	filename
+  12380	     16	  20480	  32876	   806c	34_CmsisRtosThread.elf
+Finished building: default.size.stdout
+ 
+Finished building: 34_CmsisRtosThread.list
+ 
+
+02:27:55 Build Finished. 0 errors, 0 warnings. (took 511ms)
+

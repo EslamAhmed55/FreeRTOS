@@ -1,0 +1,17 @@
+21:33:44 **** Incremental Build of configuration Debug for project 10_KillingATask ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "10_KillingATask.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\eslam\STM32CubeIDE\workspace_1.14.1\10_KillingATask\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="10_KillingATask.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 10_KillingATask.elf
+ 
+arm-none-eabi-size  10_KillingATask.elf 
+arm-none-eabi-objdump -h -S 10_KillingATask.elf  > "10_KillingATask.list"
+   text	   data	    bss	    dec	    hex	filename
+  20952	     16	  20512	  41480	   a208	10_KillingATask.elf
+Finished building: default.size.stdout
+ 
+Finished building: 10_KillingATask.list
+ 
+
+21:33:45 Build Finished. 0 errors, 0 warnings. (took 905ms)
+

@@ -1,0 +1,10 @@
+03:35:14 **** Incremental Build of configuration Debug for project 36_CmsisRtosThreadPriority ****
+make -j12 all 
+arm-none-eabi-size  36_CmsisRtosThreadPriority.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36092	    472	  20856	  57420	   e04c	36_CmsisRtosThreadPriority.elf
+Finished building: default.size.stdout
+ 
+
+03:35:15 Build Finished. 0 errors, 0 warnings. (took 306ms)
+

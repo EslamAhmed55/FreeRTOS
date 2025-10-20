@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="TIME"/>
+		<item value="SLISING"/>
+		<item value="printf"/>
+		<item value="SEMAPHORE"/>
+		<item value="SEMAPHORES "/>
+		<item value="Binary "/>
+		<item value="OVERFLOW"/>
+		<item value="configCHECK_FOR_STACK_OVERFLOW"/>
+		<item value="queueset"/>
+		<item value="HAL_StatusTypeDef"/>
+		<item value="TIME_SLICING   "/>
+		<item value="configUSE_TIME_SLICING   "/>
+		<item value="PREEMPTION "/>
+		<item value="configUSE_PREEMPTION "/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value=""/>
+		</list>
+	</section>
+</section>

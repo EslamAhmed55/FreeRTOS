@@ -1,0 +1,10 @@
+15:59:17 **** Incremental Build of configuration Debug for project 14_WorkingWithQueues ****
+make -j12 all 
+arm-none-eabi-size  14_WorkingWithQueues.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23900	     96	  21024	  45020	   afdc	14_WorkingWithQueues.elf
+Finished building: default.size.stdout
+ 
+
+15:59:17 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

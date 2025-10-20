@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;WorkingwithQueuesets&apos; to &apos;17_WorkingwithQueuesets&apos;" description="Rename resource &apos;WorkingwithQueuesets&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/WorkingwithQueuesets" name="17_WorkingwithQueuesets" stamp="1759956862685" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;19 some driver&apos; to &apos;19_some driver&apos;" description="Rename resource &apos;19 some driver&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/19 some driver" name="19_some driver" stamp="1760225031871" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+22:22:45 **** Incremental Build of configuration Debug for project 12_ExcutingTasksPeriodically ****
+make -j12 all 
+arm-none-eabi-size  12_ExcutingTasksPeriodically.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20536	     16	  20488	  41040	   a050	12_ExcutingTasksPeriodically.elf
+Finished building: default.size.stdout
+ 
+
+22:22:45 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

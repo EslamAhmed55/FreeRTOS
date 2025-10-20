@@ -1,0 +1,10 @@
+02:19:16 **** Incremental Build of configuration Debug for project 33_Pseudo_Timeslicing ****
+make -j12 all 
+arm-none-eabi-size  33_Pseudo_Timeslicing.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36952	    472	  20936	  58360	   e3f8	33_Pseudo_Timeslicing.elf
+Finished building: default.size.stdout
+ 
+
+02:19:17 Build Finished. 0 errors, 0 warnings. (took 309ms)
+

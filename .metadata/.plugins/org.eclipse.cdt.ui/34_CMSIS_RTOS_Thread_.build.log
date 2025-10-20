@@ -1,0 +1,10 @@
+02:24:51 **** Incremental Build of configuration Release for project 34_CMSIS_RTOS_Thread_ ****
+make -j12 all 
+arm-none-eabi-size  34_CMSIS_RTOS_Thread_.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12380	     16	  20480	  32876	   806c	34_CMSIS_RTOS_Thread_.elf
+Finished building: default.size.stdout
+ 
+
+02:24:51 Build Finished. 0 errors, 0 warnings. (took 302ms)
+

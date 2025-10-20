@@ -1,0 +1,10 @@
+22:03:56 **** Incremental Build of configuration Debug for project 11_BlockingATask ****
+make -j12 all 
+arm-none-eabi-size  11_BlockingATask.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20376	     16	  20488	  40880	   9fb0	11_BlockingATask.elf
+Finished building: default.size.stdout
+ 
+
+22:03:57 Build Finished. 0 errors, 0 warnings. (took 298ms)
+

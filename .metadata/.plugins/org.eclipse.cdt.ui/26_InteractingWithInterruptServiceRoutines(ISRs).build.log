@@ -1,0 +1,17 @@
+01:59:03 **** Incremental Build of configuration Debug for project 26_InteractingWithInterruptServiceRoutines(ISRs) ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "26_InteractingWithInterruptServiceRoutines(ISRs).elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\eslam\STM32CubeIDE\workspace_1.14.1\26_InteractingWithInterruptServiceRoutines(ISRs)\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="26_InteractingWithInterruptServiceRoutines(ISRs).map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 26_InteractingWithInterruptServiceRoutines(ISRs).elf
+ 
+arm-none-eabi-size  26_InteractingWithInterruptServiceRoutines(ISRs).elf 
+arm-none-eabi-objdump -h -S 26_InteractingWithInterruptServiceRoutines(ISRs).elf  > "26_InteractingWithInterruptServiceRoutines(ISRs).list"
+c:/st/stm32cubeide_1.14.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.2.0.202409170845/tools/bin/sh: syntax error: unexpected "("
+make: *** [makefile:73: default.size.stdout] Error 2
+make: *** Waiting for unfinished jobs....
+c:/st/stm32cubeide_1.14.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.2.0.202409170845/tools/bin/sh: syntax error: unexpected "("
+make: *** [makefile:78: 26_InteractingWithInterruptServiceRoutines(ISRs).list] Error 2
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+01:59:04 Build Failed. 3 errors, 0 warnings. (took 803ms)
+

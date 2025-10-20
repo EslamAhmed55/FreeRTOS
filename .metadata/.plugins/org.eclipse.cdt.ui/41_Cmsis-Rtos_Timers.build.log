@@ -1,0 +1,10 @@
+04:39:02 **** Incremental Build of configuration Debug for project 41_Cmsis-Rtos_Timers ****
+make -j12 all 
+arm-none-eabi-size  41_Cmsis-Rtos_Timers.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36780	    472	  20872	  58124	   e30c	41_Cmsis-Rtos_Timers.elf
+Finished building: default.size.stdout
+ 
+
+04:39:02 Build Finished. 0 errors, 0 warnings. (took 305ms)
+

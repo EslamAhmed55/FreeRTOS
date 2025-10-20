@@ -1,0 +1,10 @@
+02:11:09 **** Incremental Build of configuration Debug for project 29_EventGroupWithMultipleSetters ****
+make -j12 all 
+arm-none-eabi-size  29_EventGroupWithMultipleSetters.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38280	    472	  20920	  59672	   e918	29_EventGroupWithMultipleSetters.elf
+Finished building: default.size.stdout
+ 
+
+02:11:10 Build Finished. 0 errors, 0 warnings. (took 313ms)
+

@@ -1,0 +1,10 @@
+02:05:08 **** Incremental Build of configuration Debug for project 26_InteractingWithInterruptServiceRoutines ****
+make -j12 all 
+arm-none-eabi-size  26_InteractingWithInterruptServiceRoutines.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36912	    472	  20928	  58312	   e3c8	26_InteractingWithInterruptServiceRoutines.elf
+Finished building: default.size.stdout
+ 
+
+02:05:08 Build Finished. 0 errors, 0 warnings. (took 300ms)
+

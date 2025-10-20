@@ -1,0 +1,13 @@
+../Core/Src/main.c:33:5:main	1
+../Core/Src/main.c:69:6:redLedControllerTask	1
+../Core/Src/main.c:146:6:blueLedControllerTask	1
+../Core/Src/main.c:166:6:yellowLedControllerTask	1
+../Core/Src/main.c:188:5:uart2_write	2
+../Core/Src/main.c:198:5:__io_putchar	1
+../Core/Src/main.c:211:6:vMonitorTask	1
+../Core/Src/main.c:239:6:vApplicationStackOverflowHook	1
+../Core/Src/main.c:258:6:SystemClock_Config	3
+../Core/Src/main.c:298:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:331:13:MX_GPIO_Init	1
+../Core/Src/main.c:352:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:369:6:Error_Handler	1
